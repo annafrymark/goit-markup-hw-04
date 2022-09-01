@@ -111,6 +111,12 @@ ul {
   display: flex;
   justify-content: center;
   min-height: 600px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url("../images/Img18.jpg");
 }
 .main-container {
   align-items: center;
