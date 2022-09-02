@@ -89,6 +89,15 @@ ul {
   align-items: center;
   margin-left: 275px;
 }
+.contact__list{
+  display: flex;
+  flex-direction: row;
+}
+.contact__icon {
+  padding: 10px;
+  /* width: 16px;
+  height: 12px; */
+}
 .header-contact {
   color: var(--brand-color-fourth);
   font-size: 14px;
@@ -117,6 +126,9 @@ ul {
       rgba(47, 48, 58, 0.4) 100%
     ),
     url("../images/Img18.jpg");
+  background-size: auto;
+  background-position: center;
+  width: 1600px;
 }
 .main-container {
   align-items: center;
@@ -152,11 +164,24 @@ ul {
 .article__list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 30px;
   min-width: 1170px;
 }
 .article__item {
   flex-basis: calc((100% - 3 * 30px) / 4);
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.article__picture{
+  background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 .article__title {
   color: var(--brand-color-first);
