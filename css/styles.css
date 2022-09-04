@@ -287,14 +287,7 @@ ul {
   align-items: center;
   justify-content: center;
 }
-/* .team__social-icon {
-  flex-basis: calc((100% - 3 * 10px) / 4);
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-size: contain;
-  background-position: center;
- } */
+
 .social-icon {
   fill: #afb1b8;
   /* margin: 12px; */
@@ -304,10 +297,6 @@ ul {
   background-color: var(--brand-color-third);
 }
 
-/* .team__social-icon:focus,
-.team__social-icon:hover {
-  background-color: var(--brand-color-second);
-} */
 .social-icon:focus,
 .social-icon:hover {
   fill: var(--brand-color-third);
@@ -359,6 +348,9 @@ ul {
 .btn:focus {
   color: var(--brand-color-third);
   background-color: var(--brand-color-second);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 .projects {
   padding-top: 0;
@@ -404,6 +396,13 @@ figcaption {
   color: var(--brand-color-fourth);
   padding: 0 0 20px 24px;
   margin: 0;
+}
+
+.project__item:focus,
+.project__item:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
 }
 
 .footer {
