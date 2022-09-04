@@ -110,7 +110,8 @@ ul {
   margin-right: 30px;
   justify-content: flex-end;
 }
-.contact__icons:hover, .contact__icons:focus {
+.contact__icons:hover,
+.contact__icons:focus {
   fill: var(--brand-color-second);
 }
 /* .header-contact:hover .contact__icons,
@@ -200,7 +201,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 25px 100px 25px 100px;
+  padding: 25px 100px 25px 100px;
 }
 
 .article__title {
@@ -300,7 +301,7 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-background-color: var(--brand-color-third);
+  background-color: var(--brand-color-third);
 }
 
 /* .team__social-icon:focus,
@@ -312,16 +313,21 @@ background-color: var(--brand-color-third);
   fill: var(--brand-color-third);
   background-color: var(--brand-color-second);
 }
-.Clients{
+.Clients {
   display: flex;
   gap: 30px;
 }
-.Clients__logo{
-  border: solid 1px #AFB1B8;
+.Clients__logo {
+  border: solid 1px #afb1b8;
   border-radius: 4px;
   width: 170px;
   height: 92px;
-  fill: #AFB1B8;
+  fill: #afb1b8;
+}
+.Clients__logo:focus,
+.Clients__logo:hover {
+  fill: var(--brand-color-second);
+  border-color: var(--brand-color-second);
 }
 /* Portfolio */
 .buttons {
@@ -406,13 +412,16 @@ figcaption {
 }
 .footer-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
 }
+.footer__studio {
+  margin-top: 60px;
+}
 .logo__footer {
-  padding: 60px 0 20px 0;
-  margin: 0;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 .logo__studio--footer {
   color: var(--brand-color-third);
@@ -420,6 +429,7 @@ figcaption {
 .footer__list {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 .footer-contact {
   font-size: 14px;
@@ -433,4 +443,23 @@ figcaption {
 }
 .address {
   color: var(--brand-color-third);
+}
+.footer__header {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  margin-top: 72px;
+  font-size: 14px;
+  color: var(--brand-color-third);
+}
+.footer__social-icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 70px;
+  padding: 0;
+}
+.footer__icon {
+  fill: var(--brand-color-third);
+  background-color: rgba(255, 255, 255, 0.1);
 }
