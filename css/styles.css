@@ -110,13 +110,15 @@ ul {
   margin-right: 30px;
   justify-content: flex-end;
 }
-.contact__list .contact__icons:hover,
-.contact__list .contact__icons:focus {
+.contact__icons:hover, .contact__icons:focus {
   fill: var(--brand-color-second);
 }
-
-.contact__list .header-contact:hover,
-.contact__list .header-contact:focus {
+/* .header-contact:hover .contact__icons,
+.header-contact:focus .contact__icons {
+  color: var(--brand-color-second);
+} */
+.header-contact:hover,
+.header-contact:focus {
   color: var(--brand-color-second);
 }
 .section__header {
@@ -284,29 +286,31 @@ ul {
   align-items: center;
   justify-content: center;
 }
-.team__social-icon {
-  /* fill: #AFB1B8; */
+/* .team__social-icon {
   flex-basis: calc((100% - 3 * 10px) / 4);
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-size: contain;
   background-position: center;
-  /* border: none; */
-  /* align-items: center; */
-}
+ } */
 .social-icon {
   fill: #afb1b8;
-  margin: 12px;
+  /* margin: 12px; */
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+background-color: #ffffff;
 }
 
-.team__social-icon:focus,
+/* .team__social-icon:focus,
 .team__social-icon:hover {
-  color: var(--brand-color-second);
-}
+  background-color: var(--brand-color-second);
+} */
 .social-icon:focus,
 .social-icon:hover {
   fill: var(--brand-color-third);
+  background-color: var(--brand-color-second);
 }
 .buttons {
   padding-bottom: 0;
