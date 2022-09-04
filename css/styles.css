@@ -127,6 +127,7 @@ ul {
   background-color: var(--brand-color-first);
   display: flex;
   justify-content: center;
+  /* align-items: center; */
   min-height: 600px;
   background-image: linear-gradient(
       0deg,
@@ -137,6 +138,7 @@ ul {
   background-size: auto;
   background-position: center;
   max-width: 1600px;
+  width: 100%;
 }
 .main-container {
   align-items: center;
@@ -190,13 +192,14 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* border: none; */
 }
 .article__icon {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 25px 100px 25px 100px;
-}
+  }
 
 .article__title {
   color: var(--brand-color-first);
@@ -270,6 +273,9 @@ ul {
   color: var(--brand-color-fourth);
   font-weight: 400;
   text-align: center;
+}
+.team__social-icon{
+  fill: #AFB1B8;
 }
 .buttons {
   padding-bottom: 0;
