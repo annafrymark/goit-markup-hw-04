@@ -323,6 +323,11 @@ ul {
   fill: var(--brand-color-third);
   background-color: var(--brand-color-second);
 }
+.team__icon:focus .social-icon .team__icon:hover .social-icon {
+  fill: var(--brand-color-third);
+  background-color: var(--brand-color-second);
+}
+
 .Clients {
   display: flex;
   gap: 30px;
