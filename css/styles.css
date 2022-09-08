@@ -335,13 +335,23 @@ ul {
 .team__social-icon:hover {
   fill: var(--brand-color-third);
   background-color: var(--brand-color-second);
-}
+} 
 
 .team__social-icon:focus-within .social-icon,
 .team__social-icon:hover .social-icon {
   fill: var(--brand-color-third);
   background-color: var(--brand-color-second);
 }
+
+/* .team__social-icon .social-icon :focus,
+.team__social-icon .social-icon :hover {
+  fill: var(--brand-color-third);
+  background-color: var(--brand-color-second);
+} */
+
+
+
+
 /* .team__icon:focus,
       .team__icon:hover {
         fill: var(--brand-color-third);
