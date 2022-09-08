@@ -315,15 +315,15 @@ ul {
   fill: #afb1b8;
   width: 20px;
   height: 20px;
-  /* background-color: var(--brand-color-third); */
 }
 
-.team__icon:focus,
-.team__icon:hover {
+.team__icon:focus-within .social-icon,
+.team__icon:hover svg {
   fill: var(--brand-color-third);
   background-color: var(--brand-color-second);
 }
-.team__icon:focus .social-icon .team__icon:hover .social-icon {
+.team__icon:focus,
+.team__icon:hover {
   fill: var(--brand-color-third);
   background-color: var(--brand-color-second);
 }
@@ -334,24 +334,27 @@ ul {
 }
 
 .Clients__item {
-  border: solid 1px #afb1b8;
-  border-radius: 4px;
-  width: 170px;
-  height: 92px;
+  /* border: solid 1px #afb1b8;
+  border-radius: 4px; */
+  /* width: 170px;
+  height: 92px; */
   display: flex;
   align-items: center;
   justify-content: center;
   /* fill: #afb1b8; */
 }
 .Clients__logo {
-  /* border: solid 1px #afb1b8; */
-  /* border-radius: 4px; */
-  width: 106px;
-  height: 60px;
+  border: solid 1px #afb1b8;
+  border-radius: 4px;
+  /* width: 106px;
+  height: 60px; */
   fill: #afb1b8;
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px 16px 32px;
 }
-.Clients__item:focus,
-.Clients__item:hover {
+.Clients__item:focus-within svg,
+.Clients__item:hover svg {
   fill: var(--brand-color-second);
   border-color: var(--brand-color-second);
 }
@@ -521,14 +524,13 @@ figcaption {
 
 .footer__icon {
   fill: var(--brand-color-third);
-  background-color: rgba(255, 255, 255, 0.1);
   width: 20px;
   height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.footer__social-links:focus,
+.footer__social-links:focus-within .social__icon,
 .footer__social-links:hover {
   fill: var(--brand-color-third);
   background-color: var(--brand-color-second);
